@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="myFristApp">
 <head>
 	<meta charset="UTF-8">
 	<title>Hello</title>
+	<script src="js/angular/angular.min.js" type="text/javascript"></script>
+	<script src="js/app.js" type="text/javascript"></script>
 </head>
 <body>
 	<h1>Hello World</h1>
 	browser-sync start --server --directory --files "**/*"
+
+	<div ng-controller="MyFirstController"></div>
 	
 </body>
 </html>
